@@ -1,0 +1,61 @@
+
+#header{
+  padding: 12px 0;
+  width: 100%;
+  .navbar{
+
+    &__logo{
+      margin-bottom: 2px;
+
+      &__item{
+        width: 156px;
+      }
+    }
+    &__buttons{
+      &__sign{
+        border: 1px solid #E0E0E0;
+        background: #ffffff;
+        margin-right: 20px;
+        padding: 10px 27px;
+        font-family: $font-stack;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #1D1D1D;
+        transition: .3s ease-in;
+        &:hover{
+          cursor: pointer;
+          background: $button-color;
+          color: #FFFFFF;
+        }
+      }
+
+      &__register{
+        background: #262626;
+        border-radius: 2px;
+        padding: 13px 21px;
+        margin-right: -16px;
+        font-family: $font-stack;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+        &:hover{
+          cursor: pointer;
+          background: $button-color;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}

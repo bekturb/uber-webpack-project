@@ -1,0 +1,17 @@
+
+
+#snack{
+  padding: 75px 0;
+
+  &__title{
+    font-family: $font-stack;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+
+    color: #1D1D1D;
+  }
+}

@@ -1,0 +1,17 @@
+@import 'libs/normalize.css';
+@import "style/fonts";
+@import "~bootstrap/scss/bootstrap";
+@import "./style/var";
+@import "style/header";
+@import "style/hero";
+@import "./style/reset";
+@import "style/filter";
+@import "style/snack";
+@import "style/media";
+
+
+
+.container{
+  max-width: 1250px;
+  margin: 0 auto;
+}
