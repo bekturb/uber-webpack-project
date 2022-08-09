@@ -1,17 +1,87 @@
 
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-1.5 * var(--bs-gutter-x));
+}
 
 #snack{
-  padding: 75px 0;
+  padding-bottom: 72px;
+  padding-top: 77px;
 
-  &__title{
-    font-family: $font-stack;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 34px;
-    display: flex;
-    align-items: center;
+  .snack{
+    &__title{
+      font-family: $font-stack;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 34px;
+      display: flex;
+      align-items: center;
 
-    color: #1D1D1D;
+      color: $title-color;
+    }
+    &__info{
+      position: relative;
+      width:  614px;
+      height: 207px;
+      margin: 33px 20px;
+      border: 1px solid #D8D8D8;
+      &__items{
+        &__title{
+          margin-top: 26px;
+          margin-left: 22px;
+          font-family: $font-stack;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20.8px;
+          line-height: 24px;
+
+          display: flex;
+          align-items: center;
+
+          color: $title-color;
+        }
+        &__subtitle{
+          margin-top: 13px;
+          margin-left: 22px;
+          font-family: $font-stack;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 21px;
+
+          display: flex;
+          align-items: center;
+
+          color:$subtitle-color;
+        }
+        &__price{
+          position: absolute;
+          bottom: 3px;
+          left: 23px;
+          font-family: $font-stack;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 19px;
+          line-height: 21px;
+
+          display: flex;
+          align-items: center;
+
+          color: $subtitle-color;
+        }
+      }
+      &__image{
+        &__img{
+          width: 220px;
+
+        }
+      }
+    }
   }
 }
